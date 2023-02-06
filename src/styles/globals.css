@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+.button-blue-shadow:hover {
+  box-shadow: 0 0 15px #1f92f4;
+}
+
+.custom-underline {
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 30;
+  text-decoration: none;
+}
+
+.custom-underline:after {
+  content: "";
+  position: absolute;
+  bottom: 13px;
+  left: 0;
+  height: 0;
+  width: 100%;
+  border-bottom: 7px solid #51ffdd;
+  transition: width 0.3s ease;
+}
+
+.svg-change-color {
+  transition: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 150ms;
+  transition-duration: 100ms;
+}
+
+path {
+  transition: all;
+  transition-delay: 150ms;
+  transition-duration: 100ms;
+}
+
+.svg-change-color:hover svg path {
+  fill: white;
+}
+
+.svg-change-color {
+  background-color: rgba(255, 255, 255, 0);
+  transition: all;
+  transition-duration: 400ms;
+  transition-timing-function: ease-in-out;
+}
+
+.svg-change-color:hover {
+  background-color: #1a64a3;
+  transition: all;
+  transition-duration: 400ms;
+  transition-timing-function: ease-in-out;
+  color: white;
+}
+
+.svg-change-color:hover * {
+  transition: all;
+  transition-duration: 400ms;
+  transition-timing-function: ease-in-out;
+  color: white;
+}
+
+.svg-change-color .svg-wrapper {
+  scale: 1;
+  transition: all;
+  transition-duration: 400ms;
+  transition-timing-function: ease-in-out;
+}
+
+.svg-change-color:hover .svg-wrapper {
+  scale: 1.25;
+  transition: all;
+  transition-delay: 150ms;
+  transition-duration: 400ms;
+  transition-timing-function: ease-in-out;
+}
