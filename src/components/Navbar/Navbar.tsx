@@ -34,7 +34,7 @@ export default function Navbar() {
                   <RiArrowDropDownFill className="text-2xl" />
                 </div>
               </Link>
-              <div className=" absolute hidden peer-hover:flex hover:flex w-full top-[92px] bg-[white] left-0 shadow border-t border-[#f7f7f7] ">
+              <div className=" absolute hidden peer-hover:flex hover:flex w-full top-16 bg-[white] left-0 shadow border-t border-[#f7f7f7] ">
                 <div className="max-w-[1200px] w-[97%] grid grid-cols-3 mx-auto gap-x-4 py-4">
                   <div className="flex flex-col gap-y-3">
                     <DropdownCard
@@ -158,7 +158,7 @@ export default function Navbar() {
                   <RiArrowDropDownFill className="text-2xl" />
                 </div>
               </Link>
-              <div className="absolute hidden peer-hover:flex hover:flex w-full top-[92px] bg-[white] left-0 shadow border-t border-[#f7f7f7] ">
+              <div className="absolute hidden peer-hover:flex hover:flex w-full top-16 bg-[white] left-0 shadow border-t border-[#f7f7f7] ">
                 <div className="max-w-[1200px] w-[97%] grid grid-cols-4 mx-auto gap-x-4 py-4">
                   <div className="flex flex-col gap-y-3">
                     <DropdownCard
@@ -214,7 +214,7 @@ export default function Navbar() {
                   <RiArrowDropDownFill className="text-2xl" />
                 </div>
               </Link>
-              <div className="absolute hidden peer-hover:flex hover:flex w-full top-[92px] bg-[white] left-0 shadow border-t border-[#f7f7f7] ">
+              <div className="absolute hidden peer-hover:flex hover:flex w-full top-16 bg-[white] left-0 shadow border-t border-[#f7f7f7] ">
                 <div className="max-w-[1200px] w-[97%] grid grid-cols-3 mx-auto gap-x-4 py-4">
                   <div className="flex flex-col gap-y-3">
                     <DropdownCard
@@ -244,7 +244,7 @@ export default function Navbar() {
                     <DropdownCard
                       href="#"
                       title="Our Process"
-                      text="Our time-tested process of developing efficient and fully custom software systems"
+                      text="Our time-tested process of developing efficient and fully custom sotop-16ftware systems"
                     />
                     <DropdownCard
                       href="#"
@@ -262,7 +262,7 @@ export default function Navbar() {
                   <RiArrowDropDownFill className="text-2xl" />
                 </div>
               </Link>
-              <div className="absolute hidden peer-hover:flex hover:flex w-full top-[92px] bg-[white] left-0 shadow border-t border-[#f7f7f7] ">
+              <div className="absolute hidden peer-hover:flex hover:flex w-full top-16 bg-[white] left-0 shadow border-t border-[#f7f7f7] ">
                 <div className="max-w-[1200px] w-[97%] grid grid-cols-3 mx-auto gap-x-4 py-4">
                   <div className="flex flex-col gap-y-2">
                     <DropdownCard
