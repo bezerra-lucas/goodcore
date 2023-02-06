@@ -16,7 +16,7 @@ import clutch from "@/assets/clutch.webp";
 
 export default function HeroSection({ setVideoModalIsOpen }: iHeroSection) {
   const divGridClasses =
-    "w-full flex text-center items-center flex-row justify-center border-r-[#22222245] border-r px-8";
+    "border-b border-b-[#00000018] py-6 w-full flex text-center items-center flex-row justify-left border-r-[#22222245] md:border-b-0 md:border-r px-8";
   const divGridTitleClasses = "mb-1 text-[30px] font-bold text-[#5e6370]";
   const divGridTextClasses = "text-[16px] text-[#737989]";
 
@@ -27,24 +27,24 @@ export default function HeroSection({ setVideoModalIsOpen }: iHeroSection) {
           background:
             "url(https://cdn-addgm.nitrocdn.com/MJnTlHySegcmvxPTBPLfaINTSJyWuhDi/assets/images/optimized/rev-9075f04/wp-content/uploads/2022/09/bg-home-lines.png), #ebeef6",
         }}
-        className="w-[99.1vw] bg-[#] h-[680px] pt-[80px]"
+        className="w-screen pb-16 pt-[80px]"
       >
-        <div className="max-w-[1200px] w-[97%] grid grid-cols-2 mx-auto mt-[0px]">
-          <div className="">
-            <h1 className="font-bold text-[64px] leading-[1.1]">
+        <div className="max-w-[1200px] w-full grid grid-cols-1 md:grid-cols-2 mx-auto mt-[0px]">
+          <div className="pt-6">
+            <h1 className="max-w-[90%] mx-auto font-bold text-[34px] md:text-[64px] text-center md:text-left leading-[1.1]">
               BESPOKE SOFTWARE DEVELOPMENT COMPANY
             </h1>
-            <h2 className="text-[34px] text-[#5e5f64] mt-3">
+            <h2 className="text-[16px] md:text-[44px] text-center mb-8 md:text-left text-[#5e5f64] mt-3">
               Software development that is Good to the Core!
             </h2>
           </div>
-          <div className="w-[550px]">
+          <div className="max-w-[90%] w-[550px] mx-auto">
             <div
               onClick={() => setVideoModalIsOpen(true)}
               className="bg-secondary rounded-[40px] cursor-pointer"
             >
               <Image
-                className="w-full rounded-[40px]"
+                className="max-w-screen rounded-[40px]"
                 src={peter}
                 alt="peter"
                 width={800}
@@ -58,7 +58,7 @@ export default function HeroSection({ setVideoModalIsOpen }: iHeroSection) {
             </div>
           </div>
         </div>
-        <div className="w-full sm:w-[97%] mx-auto  flex flex-col items-center gap-y-6 sm:grid sm:max-w-[1200px] sm:grid-cols-4 mt-16">
+        <div className="w-full sm:w-[97%] mx-auto flex flex-col items-center sm:grid sm:max-w-[1200px] sm:grid-cols-4 mt-16">
           <div className={divGridClasses}>
             <Image
               src={yearsOfExp}
@@ -103,7 +103,7 @@ export default function HeroSection({ setVideoModalIsOpen }: iHeroSection) {
               </span>
             </div>
           </div>
-          <div className="flex align-center flex-col justify-center px-8">
+          <div className="flex align-center flex-col mr-auto md:mx-auto px-8 py-6">
             <Image src={clutch} width={182} height={40} alt="clutch" />
           </div>
         </div>

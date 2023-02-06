@@ -1,7 +1,3 @@
-import Image from "next/image";
-
-import computer from "@/assets/computer.svg";
-
 export default function ServicesSection() {
   const divElementGrid = `svg-change-color transition duration-100 ease-in-out delay-150 
   cursor-pointer rounded-xl transition ease-in-out delay-150 border border-[#f1f1f1]
@@ -17,13 +13,13 @@ export default function ServicesSection() {
           services
         </span>
       </h2>
-      <p className="text-[24px] text-center max-w-[1200px] mx-auto mt-7 text-[#303234]">
+      <p className="text-[17px] md:text-[24px] text-center max-w-[1200px] w-[80%] md:w-[97%] mx-auto mt-7 text-[#303234]">
         GoodCore is a leading bespoke software development company based in
         Croydon, UK. We build robust software for startups and established
         businesses. Since 2005.
       </p>
 
-      <div className="max-w-[1200px] w-[97%] mx-auto grid grid-cols-3 gap-x-10 mt-16">
+      <div className="max-w-[1200px] w-[80%] md:w-[97%] mx-auto grid grid-cols-1 gap-y-6 md:grid-cols-3 gap-x-10 mt-16">
         <div className="svg-change-color cursor-pointer rounded-xl border border-[#f1f1f1] group bg-[white] px-7 py-16  w-full flex flex-col justify-center font-normal text-[#212529] text-center box-border">
           <div className="flex justify-center w-full">
             <div className="svg-wrapper">
@@ -97,12 +93,12 @@ export default function ServicesSection() {
             </div>
           </div>
           <h3 className="mt-8 text-[#303234] font-semibold text-lg">
-            Web Application Development
+            Mobile App Development
           </h3>
           <p className="text-[1rem] mt-4 text-[#828282] font-medium">
-            Utilising the latest technologies, we build web applications that
-            deliver remarkable functionality and user engagement from within a
-            browser window.
+            Stunning mobile apps that work across a variety of devices and
+            engage large audiences – designed with security, scalability, and
+            usability in mind.
           </p>
           <span className="mt-5 text-[#78bdf8]">MORE &gt;&gt;</span>
         </div>
@@ -138,12 +134,12 @@ export default function ServicesSection() {
             </div>
           </div>
           <h3 className="mt-8 text-[#303234] font-semibold text-lg">
-            Web Application Development
+            Dedicated Development Team
           </h3>
           <p className="text-[1rem] mt-4 text-[#828282] font-medium">
-            Utilising the latest technologies, we build web applications that
-            deliver remarkable functionality and user engagement from within a
-            browser window.
+            Scale your delivery capacity with a wide range of technology skills
+            - leverage GoodCore’s experience in hiring, motivating and managing
+            top tech professionals.
           </p>
           <span className="mt-5 text-[#78bdf8]">MORE &gt;&gt;</span>
         </div>

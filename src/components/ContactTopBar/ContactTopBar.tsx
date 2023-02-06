@@ -4,7 +4,7 @@ import { FiMail, FiSmartphone } from "react-icons/fi";
 
 export default function ContactTopBar() {
   return (
-    <div className="h-7 bg-primary-dark flex justify-center items-center">
+    <div className="h-7 hidden md:flex bg-primary-dark  justify-center items-center">
       <div className="h-7 max-w-[1200px] w-[97%] flex items-center">
         <div className="ml-auto gap-x-5 flex flex-row">
           <LinkSpan

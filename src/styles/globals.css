@@ -79,3 +79,23 @@ path {
   transition-duration: 400ms;
   transition-timing-function: ease-in-out;
 }
+
+.open-dropdown {
+  text-transform: uppercase;
+  min-height: 50px;
+  border-bottom: 1px solid #00000021;
+}
+
+.dropdown-list-item .open-dropdown {
+  padding-left: 20px;
+  text-transform: uppercase;
+  min-height: 50px;
+  border-bottom: 1px solid #00000021;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.dropdown-list-item .dropdown {
+  padding-left: 40px;
+}
